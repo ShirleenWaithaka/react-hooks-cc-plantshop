@@ -18,7 +18,7 @@ function PlantPage() {
     setSearchTerm(term);
   };
   const handleUpdatePrice =(updatedPlant)=>{
-  setPlants(plants .map((plants)=>
+  setPlants(plants.map((plants)=>
     plants.id===updatedPlant.id?updatedPlant:plants));
   };
   const handleDelete=(id)=>{
